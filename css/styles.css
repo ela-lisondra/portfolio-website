@@ -1,179 +1,198 @@
+/*BASE STYLES*/
 
 body {
-  font-family: "Montserrat";
+  font-family: 'Open sans', sans-serif;
+}
+
+/*GRID*/
+
+.full-width {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.half-width {
+  width: 600px;
+  float:left;
+
+}
+
+.third-width {
+  width: 400px;
+  float: left;
+}
+
+/*HEADER*/
+
+
+header {
+    height: 800px;
+    background-color: #ffffff;
+    color: #313131;
+    float: left;
+    padding: 65px 0 65px 25px;
+}
+
+header h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 64px;
+  color: #313131;
+  /*float:left;*/
+  /*padding: 65px 0 65px 25px;*/
+}
+
+nav {
+    float: right; 
+    padding: 75px 25px;
+}
+nav ul li{
+    display: inline-block;
+    word-spacing: 25px;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 24px;
+    
+    padding-left: 80px; 
+}
+
+header h2 {
+    width: 970px;
+    /*clear: both;*/
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    padding: 20px 0 20px 25px;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+/*ABOUT*/
+
+#about {
+  background-color: #ff654a;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat-Bold";
+#about .full-width {
+  padding: 80px 0;
+  
 }
 
-p {
-  color: #8f8f8f;
-}
-
-/* Headings */
-
-.big-heading {
-  font-family: "Montserrat-Black";
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-
-.section-heading {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-/* Containers */
-
-.container-fluid{
-  padding: 7% 15%;
-}
-
-/* Sections */
-
-.colored-section {
-  background-iamge: url("css/images/hero-image.png");
-  /*color: #fff;*/
-}
-
-.white-section {
-  background-color: #fff;
-}
-
-/* Navigation Bar */
-
-.navbar {
-  padding: 0 0 4.5rem;
-}
-
-.navbar-brand {
-  font-family: "Ubuntu";
-  font-size: 2.5rem;
+#about h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  color:#ffffff;
   font-weight: bold;
 }
 
-.nav-item {
-  padding: 0 18px;
+#about p {
+  font-size: 21px;
+  color: #ffffff;
+  line-height: 40px;
+  padding-left:  50px;
+  padding-right: 50px;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-  font-family: "Montserrat-Light";
+/*WORK*/
+
+#work {
+  background-color: #ffffff;
+  text-align: center;
 }
 
-/* Buttons */
-
-.download-button {
-  margin: 5% 3% 5% 0;
+#work .full-width {
+  padding: 115px 0;
 }
 
-/* Title Section */
-
-#title {
-  background-color: #ff4c68;
-  color: #fff;
-  text-align: left;
+#work img {
+  padding-bottom: 30px;
 }
 
-#title .container-fluid {
-  padding: 3% 15% 7%;
+#work h2 {
+  font-size: 36px;
+  line-height:32px;
+  width: 190px;
+  margin: 0 auto;
+  font-family: "Libre Baskerville", serif;
 }
 
-/* Title Image */
-
-.title-image {
-  width: 60%;
-  transform: rotate(25deg);
-  position: absolute;
-  right: 30%;
+#work h3 {
+  font-weight: bold;
 }
 
-/* Features Section */
-
-#features {
-  position: relative;
+#work p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 0 50px;
 }
 
-.feature-title {
-  font-size: 1.5rem;
+/*CONTACT*/
+
+#contact {
+  background-color: #ff654a;
+  text-align: center;
+  color: #ffffff;
 }
 
-.feature-box {
-  padding: 4.5%;
+#contact .full-width {
+  padding: 110px 0;
 }
 
-.icon {
-  color: #ef8172;
-  margin-bottom: 1rem;
+#contact h2 {
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  color:#ffffff;
+  font-weight: bold;
 }
 
-.icon:hover {
-  color: #ff4c68;
+#contact p {
+  font-family: 'Open sans', sans-serif;
+  font-size: 24px;
+  line-height: 30px;
+  padding: 0 50px;
 }
 
-/* Testimonial Section */
-
-#testimonials {
-  background-color: #ef8172;
+#contact h3 {
+  font-weight: bold;
+}
+#contact a {
+    text-decoration: none;
+    color: #c49075;
+    font-weight: bold;
+    font-size: 28px;
 }
 
-.testimonial-text {
-  font-size: 3rem;
-  line-height: 1.5;
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    padding-right: 48px;
 }
 
-.testimonial-image {
-  width: 10%;
-  border-radius: 100%;
-  margin: 20px;
-}
 
 
-#press {
-  background-color: #ef8172;
-  padding-bottom: 3%;
-}
-
-.press-logo {
-  width: 15%;
-  margin: 20px 20px 50px;
-}
-
-/* Pricing Section */
-
-#pricing {
-  padding: 100px;
-}
-
-.price-text {
-  font-size: 3rem;
-  line-height: 1.5;
-}
-
-.pricing-column {
-  padding: 3% 2%;
-}
-
-/* CTA Section */
 
 
-/* Footer Section */
 
 
-.social-icon {
-  margin: 20px 10px;
-}
 
-@media (max-width: 1028px) {
 
-  #title {
-    text-align: center;
-  }
 
-  .title-image {
-    position: static;
-    transform: rotate(0);
-  }
-}
+
+
+
+
+
+
+
+
+
+
+
