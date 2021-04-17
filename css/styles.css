@@ -95,7 +95,7 @@ header h2 span {
   padding-left:  50px;
   padding-right: 50px;
 }
-
+               
 /*WORK*/
 
 #work {
@@ -114,7 +114,7 @@ header h2 span {
 #work h2 {
   font-size: 36px;
   line-height:32px;
-  width: 190px;
+  width: 190px;                                       
   margin: 0 auto;
   font-family: "Libre Baskerville", serif;
 }
