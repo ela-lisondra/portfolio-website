@@ -2,6 +2,7 @@
 
 body {
   font-family: 'Open Sans Regular', sans-serif;
+  letter-spacing: .5px;
 }
 
 /*GRID*/
@@ -90,7 +91,7 @@ header h2 {
 
 
 #about .full-width {
-  padding: 80px 0 40px 0;
+  padding: 100px 0 40px 0;
   
 }
 
@@ -117,34 +118,37 @@ header h2 {
   font-size: 28px;
   color: #ffffff;
   line-height: 40px;
-  padding: 0 50px 40px 50px;
+  padding: 0 180px 40px 180px;
 }
                
-/*WORK
+/*WORK*/
 
 #work {
   background-color: #ffffff;
-  text-align: center;
+  
 }
 
 #work .full-width {
-  padding: 115px 0;
+  padding: 100px 0;
+  text-align: center;
 }
 
 #work img {
   padding-bottom: 30px;
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
 }
 
 #work h2 {
-  font-size: 36px;
-  line-height:32px;
-  width: 190px;                                       
-  margin: 0 auto;
+  font-size: 40px;
   font-family: "Libre Baskerville", serif;
+  padding-bottom: 60px;
 }
 
 #work h3 {
   font-weight: bold;
+  font-size: 24px;
 }
 
 #work p {
@@ -154,7 +158,7 @@ header h2 {
   padding: 0 50px;
 }
 
-/*CONTACT
+/*CONTACT*/
 
 #contact {
   background-color: #ff654a;
@@ -163,7 +167,7 @@ header h2 {
 }
 
 #contact .full-width {
-  padding: 110px 0;
+  padding: 100px 0;
 }
 
 #contact h2 {
@@ -171,18 +175,21 @@ header h2 {
   font-size: 36px;
   color:#ffffff;
   font-weight: bold;
+  padding-bottom: 40px;
+}
+
+#contact h3 {
+  font-weight: bold;
+  font-size: 24px;
 }
 
 #contact p {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Open Sans Regular', sans-serif;
   font-size: 24px;
   line-height: 30px;
   padding: 0 50px;
 }
 
-#contact h3 {
-  font-weight: bold;
-}
 #contact a {
     text-decoration: none;
     color: #c49075;
@@ -190,16 +197,9 @@ header h2 {
     font-size: 28px;
 }
 
-#contact ul {
-    list-style: none;
+#contact a {
+  padding-right: 30px;
 }
-#contact ul li {
-     display: inline-block;
-}
-#contact ul img {
-    padding-right: 48px;
-}
-
 
 
 
