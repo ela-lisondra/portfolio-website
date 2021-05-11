@@ -1,7 +1,7 @@
 /*BASE STYLES*/
 
 body {
-  font-family: 'Open Sans Regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   letter-spacing: .5px;
 }
 
@@ -35,25 +35,9 @@ header {
     padding: 60px;
 }
 
-header h1 {
-  font-family: 'Libre Baskerville', serif;
-  font-size: 64px;
-  color: #313131;
-  float:left;
-  padding: 100px 0 10px 35px;
-}
-
-header h1 .pc-img {
-    padding-right: 30px;
-}
-
-header h1 span {
-    color: #ff654a;
-}
-
 nav {
     float: right; 
-    padding-right: 40px; 
+   /* padding-right: 40px; */
     padding-bottom: 20px;
 }
 
@@ -71,20 +55,35 @@ nav ul li a {
     padding-left: 30px; 
 }
 
+header h1 {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 64px;
+  color: #313131;
+  float:left;
+  padding: 100px 0 10px 35px;
+}
+
+header h1 .pc-img {
+    padding-right: 30px;
+}
+
+header h1 span {
+    color: #ff654a;
+}
+
 header h2 {
-    /*width: 970px;*/
     clear: both;
-    font-family: 'Open Sans Regular', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 48px;
     line-height: 60px;
-    padding: 0 40px 40px 40px;
+    padding: 0 180px 40px 40px;
 }
 
 /*ABOUT*/
 
 #about {
-  /*font-family: "Open Sans Regular", sans-serif;*/
+  font-family: "Open Sans Regular", sans-serif;
   background-color: #ff654a;
   text-align: center;
 }
@@ -118,8 +117,9 @@ header h2 {
   font-size: 28px;
   color: #ffffff;
   line-height: 40px;
-  padding: 0 180px 40px 180px;
+  padding: 0 160px 40px 160px;
 }
+
                
 /*WORK*/
 
@@ -135,9 +135,9 @@ header h2 {
 
 #work img {
   padding-bottom: 30px;
-  width: 400px;
+  width: 380px;
   height: 300px;
-  object-fit: cover;
+  /*object-fit: cover;*/
 }
 
 #work h2 {
@@ -152,7 +152,7 @@ header h2 {
 }
 
 #work p {
-  font-family: 'Open sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   line-height: 30px;
   padding: 0 50px;
@@ -184,7 +184,7 @@ header h2 {
 }
 
 #contact p {
-  font-family: 'Open Sans Regular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   line-height: 30px;
   padding: 0 50px;
