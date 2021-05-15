@@ -214,6 +214,21 @@ header h2 {
   padding-right: 30px;
 }
 
+.wrapper{
+  max-width: 400px;
+  background: green;
+  height: 40px;
+  text-align: right;
+}
+
+.marquee {
+  background: red;
+  white-space: nowrap;
+  -webkit-animation: rightThenLeft 4s linear;
+}
+
+
+
 
 
 
