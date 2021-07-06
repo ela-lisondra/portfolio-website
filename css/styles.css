@@ -7,31 +7,32 @@ body {
 
 /*GRID*/
 
-.full-width {
+/* .full-width {
   width: 1200px;
   margin: 0 auto;
   overflow: auto;
-}
+} */
 
-.half-width {
+/* .half-width {
   width: 600px;
   float:left;
 
-}
+} */
 
-.third-width {
+/* .third-width {
   width: 400px;
-  float: left;
+  float: left; */
+/* }  
 
 /* .fourth-width {
   width:300px;
   float: left;
 } */
-}
+/* } 
 
 /*HEADER*/
 
-a:link{
+/* a:link{
   text-decoration: none;
 }
 
@@ -48,9 +49,9 @@ header {
 }
 
 nav {
-    float: right; 
+    float: right;  */
    /* padding-right: 40px; */
-    padding-bottom: 20px;
+    /* padding-bottom: 20px;
 }
 
 nav ul li{
@@ -90,11 +91,11 @@ header h2 {
     font-size: 48px;
     line-height: 60px;
     padding: 0 180px 40px 40px;
-}
+} */
 
 /*ABOUT*/
 
-#about {
+/* #about {
   font-family: "Open Sans Regular", sans-serif;
   background-color: #ff654a;
   text-align: center;
@@ -130,12 +131,12 @@ header h2 {
   color: #ffffff;
   line-height: 40px;
   padding: 0 160px 40px 160px;
-}
+} */
 
                
 /*WORK*/
 
-#work {
+/* #work {
   background-color: #ffffff;
   
 }
@@ -148,9 +149,9 @@ header h2 {
 #work img {
   padding-bottom: 30px;
   width: 380px;
-  height: 300px;
+  height: 300px; */
   /*object-fit: cover;*/
-}
+/* }
 
 #work h2 {
   font-size: 40px;
@@ -169,11 +170,11 @@ header h2 {
   font-size: 24px;
   line-height: 30px;
   padding: 0 50px;
-}
+} */
 
 /*CONTACT*/
 
-#contact {
+/* #contact {
   background-color: #ff654a;
   text-align: center;
   color: #ffffff;
@@ -212,33 +213,58 @@ header h2 {
 
 #contact a {
   padding-right: 30px;
-}
+} */
+
 
 @media (max-width: 375px) {
   header {
-    padding: 10px 15px;
-    /* font-size: 14px; */
-   height: max-content;
-  
-  }
-
-  header h1{
-    padding: 10px 10px;
-    margin-top: 10px;
+    padding: 10px; 
     font-size: 14px;
-    text-align: center;
-  }
- 
-  nav ul li{
+
+  } 
+
+  nav {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    justify-content: space-evenly;
   
   }
 
-  .hero .heading{
-    padding: 0;
+  nav  a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  /* HERO SECTION */
+
+  .hero {
+    padding: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 24px;
+    color: #313131;
+    float:left;
+
+
+    
+  }
+
+  .hero h1 {
+    width: 250px;
+    padding-bottom: 10px;
+  }
+
+  .hero h1 span {
+    color: #ff654a;
+  }
+
+  .hero .heading .pc-img {
+    width: 40px;
+    padding-right: 10px;
+  }
+
+  .hero h2 {
+    font-size: 16px;
+    width: 250px;
   }
 }
 
